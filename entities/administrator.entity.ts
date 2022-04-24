@@ -6,7 +6,7 @@ export class Administrator {
   @PrimaryGeneratedColumn({
     type: "int",
     name: "administrator_id",
-    unsigned: true,
+    unsigned: true
   })
   administratorId: number;
 
